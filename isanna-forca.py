@@ -161,7 +161,7 @@ def desenhaJogo(palavraSecreta,palpite):
     print('Erros: ',letrasErradas)
     print(vazio)
      
-# A função sortearPalavra quando chamada recorrerá a global palavras que contém as palavras que poderão ser sorteadas, sorteará apenas uma palavra e ela retornará.
+# A função sortearPalavra quando chamada recorrerá a global palavras que contém as palavras que poderão ser sorteadas. Sorteará apenas uma palavra e ela retornará.
 def sortearPalavra():
     global palavras
     return random.choice(palavras).upper() #choice sorteia uma palavra aleatória na lista.
